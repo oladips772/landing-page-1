@@ -6,8 +6,103 @@
 }
 
 header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
 }
 
-header img {
-  margin: 0 auto;
+main {
+  max-width: 1200px;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+}
+
+section {
+  width: 600px;
+}
+
+section h4 {
+  font-size: 20px;
+  background-color: #a1cce6;
+  width: 280px;
+}
+
+section h1 {
+  font-size: 80px;
+}
+
+section h5 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+section p {
+  line-height: 23px;
+  margin-bottom: 20px;
+}
+
+section button {
+  width: 380px;
+  height: 54px;
+  background-color: rgb(43, 40, 40);
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+section button:hover {
+  opacity: 0.7;
+}
+
+main img {
+  width: 500px;
+  border-radius: 4px;
+  margin-left: 20px;
+}
+
+section .icons {
+  margin-top: 23px;
+  display: flex;
+  align-items: center;
+}
+
+section .icons i {
+  margin-right: 18px;
+  font-size: 26px;
+}
+
+section .icons .fa-facebook-f {
+  color: rgb(3, 64, 170);
+}
+
+section .icons .fa-twitter {
+  color: rgb(36, 121, 239);
+}
+
+section .icons .fa-instagram {
+  color: crimson;
+}
+
+section .icons .fa-youtube {
+  color: red;
+}
+
+section .icons .fa-spotify {
+  color: green;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+footer img {
+  height: 50px;
+  object-fit: contain;
 }
